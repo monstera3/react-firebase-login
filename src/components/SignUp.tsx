@@ -1,6 +1,7 @@
 import React, { useRef } from 'react';
 import { getAuth, createUserWithEmailAndPassword } from "firebase/auth"
 
+
 export const SignUp = () => {
   const emailRef = useRef<HTMLInputElement | null>(null);
   const emailPassword = useRef<HTMLInputElement | null>(null);
